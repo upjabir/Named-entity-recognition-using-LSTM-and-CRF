@@ -1,0 +1,406 @@
+[ INFO ] Model Save Path created' Already exists
+9543 85
+[ INFO ] Training in cuda
+Embedding:
+     pretrain word:400000, prefect match:6461, case_match:1695, oov:1387, oov%:0.1453421355967725
+[ INFO ] build pretrain embed cost 0.0m with shape (9543, 100)
+[ INFO ] Model Start training
+[TRAIN] Epoch:   1 Batch:   16 Loss: 1520.6069
+[ INFO ] [VAL]   Epoch:   1 Loss: 12941.1025 F1-Score: 0.0035
+[ INFO ] Train and Eval2th epoch cost 1m 15s
+[ INFO ] Early stop at epoch 1, with val F1-Score 0.0034802784222737818
+[TRAIN] Epoch:   2 Batch:   16 Loss: 1508.6367
+[ INFO ] [VAL]   Epoch:   2 Loss: 12640.7607 F1-Score: 0.0033
+[ INFO ] Train and Eval3th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 2, with val F1-Score 0.0032869296210363496
+[TRAIN] Epoch:   3 Batch:   16 Loss: 1472.6023
+[ INFO ] [VAL]   Epoch:   3 Loss: 12148.2542 F1-Score: 0.0044
+[ INFO ] Train and Eval4th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 3, with val F1-Score 0.004447022428460944
+[TRAIN] Epoch:   4 Batch:   16 Loss: 1414.6975
+[ INFO ] [VAL]   Epoch:   4 Loss: 11465.7727 F1-Score: 0.0077
+[ INFO ] Train and Eval5th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 4, with val F1-Score 0.007733952049497293
+[TRAIN] Epoch:   5 Batch:   16 Loss: 1333.1805
+[ INFO ] [VAL]   Epoch:   5 Loss: 10600.6702 F1-Score: 0.0381
+[ INFO ] Train and Eval6th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 5, with val F1-Score 0.038089713843774166
+[TRAIN] Epoch:   6 Batch:   16 Loss: 1233.2573
+[ INFO ] [VAL]   Epoch:   6 Loss: 9580.9443 F1-Score: 0.3192
+[ INFO ] Train and Eval7th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 6, with val F1-Score 0.31921887084300077
+[TRAIN] Epoch:   7 Batch:   16 Loss: 1112.7812
+[ INFO ] [VAL]   Epoch:   7 Loss: 8497.1563 F1-Score: 0.4836
+[ INFO ] Train and Eval8th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 7, with val F1-Score 0.48356535189481825
+[TRAIN] Epoch:   8 Batch:   16 Loss: 984.8235
+[ INFO ] [VAL]   Epoch:   8 Loss: 7558.1248 F1-Score: 0.4894
+[ INFO ] Train and Eval9th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 8, with val F1-Score 0.48936581593194123
+[TRAIN] Epoch:   9 Batch:   16 Loss: 874.0974
+[ INFO ] [VAL]   Epoch:   9 Loss: 6995.3881 F1-Score: 0.4894
+[ INFO ] Train and Eval10th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 9, with val F1-Score 0.48936581593194123
+[TRAIN] Epoch:  10 Batch:   16 Loss: 803.9301
+[ INFO ] [VAL]   Epoch:  10 Loss: 6728.4277 F1-Score: 0.4894
+[ INFO ] Train and Eval11th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 10, with val F1-Score 0.48936581593194123
+[TRAIN] Epoch:  11 Batch:   16 Loss: 769.1255
+[ INFO ] [VAL]   Epoch:  11 Loss: 6493.1031 F1-Score: 0.4894
+[ INFO ] Train and Eval12th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 11, with val F1-Score 0.48936581593194123
+[TRAIN] Epoch:  12 Batch:   16 Loss: 742.1910
+[ INFO ] [VAL]   Epoch:  12 Loss: 6254.7080 F1-Score: 0.4894
+[ INFO ] Train and Eval13th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 12, with val F1-Score 0.48936581593194123
+[TRAIN] Epoch:  13 Batch:   16 Loss: 719.0449
+[ INFO ] [VAL]   Epoch:  13 Loss: 6060.6497 F1-Score: 0.4915
+[ INFO ] Train and Eval14th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 13, with val F1-Score 0.491492652745553
+[TRAIN] Epoch:  14 Batch:   16 Loss: 700.6379
+[ INFO ] [VAL]   Epoch:  14 Loss: 5890.1210 F1-Score: 0.4959
+[ INFO ] Train and Eval15th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 14, with val F1-Score 0.49593967517401394
+[TRAIN] Epoch:  15 Batch:   16 Loss: 680.1956
+[ INFO ] [VAL]   Epoch:  15 Loss: 5731.0389 F1-Score: 0.5006
+[ INFO ] Train and Eval16th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 15, with val F1-Score 0.5005800464037123
+[TRAIN] Epoch:  16 Batch:   16 Loss: 660.4267
+[ INFO ] [VAL]   Epoch:  16 Loss: 5562.2058 F1-Score: 0.5097
+[ INFO ] Train and Eval17th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 16, with val F1-Score 0.5096674400618716
+[TRAIN] Epoch:  17 Batch:   16 Loss: 640.6174
+[ INFO ] [VAL]   Epoch:  17 Loss: 5398.7209 F1-Score: 0.5197
+[ INFO ] Train and Eval18th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 17, with val F1-Score 0.5197215777262181
+[TRAIN] Epoch:  18 Batch:   16 Loss: 622.3740
+[ INFO ] [VAL]   Epoch:  18 Loss: 5244.2372 F1-Score: 0.5271
+[ INFO ] Train and Eval19th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 18, with val F1-Score 0.5270688321732405
+[TRAIN] Epoch:  19 Batch:   16 Loss: 602.2488
+[ INFO ] [VAL]   Epoch:  19 Loss: 5088.5616 F1-Score: 0.5367
+[ INFO ] Train and Eval20th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 19, with val F1-Score 0.5367362722351121
+[TRAIN] Epoch:  20 Batch:   16 Loss: 584.4904
+[ INFO ] [VAL]   Epoch:  20 Loss: 4942.4086 F1-Score: 0.5501
+[ INFO ] Train and Eval21th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 20, with val F1-Score 0.550077339520495
+[TRAIN] Epoch:  21 Batch:   16 Loss: 566.8751
+[ INFO ] [VAL]   Epoch:  21 Loss: 4802.1970 F1-Score: 0.5582
+[ INFO ] Train and Eval22th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 21, with val F1-Score 0.5581979891724671
+[TRAIN] Epoch:  22 Batch:   16 Loss: 548.9584
+[ INFO ] [VAL]   Epoch:  22 Loss: 4668.6810 F1-Score: 0.5648
+[ INFO ] Train and Eval23th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 22, with val F1-Score 0.5647718484145399
+[TRAIN] Epoch:  23 Batch:   16 Loss: 533.4203
+[ INFO ] [VAL]   Epoch:  23 Loss: 4542.9505 F1-Score: 0.5710
+[ INFO ] Train and Eval24th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 23, with val F1-Score 0.5709590100541376
+[TRAIN] Epoch:  24 Batch:   16 Loss: 518.1279
+[ INFO ] [VAL]   Epoch:  24 Loss: 4423.3998 F1-Score: 0.5783
+[ INFO ] Train and Eval25th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 24, with val F1-Score 0.5783062645011601
+[TRAIN] Epoch:  25 Batch:   16 Loss: 505.2225
+[ INFO ] [VAL]   Epoch:  25 Loss: 4311.1011 F1-Score: 0.5868
+[ INFO ] Train and Eval26th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 25, with val F1-Score 0.5868136117556071
+[TRAIN] Epoch:  26 Batch:   16 Loss: 490.7474
+[ INFO ] [VAL]   Epoch:  26 Loss: 4206.2487 F1-Score: 0.5949
+[ INFO ] Train and Eval27th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 26, with val F1-Score 0.5949342614075793
+[TRAIN] Epoch:  27 Batch:   16 Loss: 478.4938
+[ INFO ] [VAL]   Epoch:  27 Loss: 4107.3389 F1-Score: 0.6019
+[ INFO ] Train and Eval28th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 27, with val F1-Score 0.6018948182521269
+[TRAIN] Epoch:  28 Batch:   16 Loss: 465.5641
+[ INFO ] [VAL]   Epoch:  28 Loss: 4015.3300 F1-Score: 0.6106
+[ INFO ] Train and Eval29th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 28, with val F1-Score 0.6105955143078113
+[TRAIN] Epoch:  29 Batch:   16 Loss: 454.1836
+[ INFO ] [VAL]   Epoch:  29 Loss: 3927.2007 F1-Score: 0.6174
+[ INFO ] Train and Eval30th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 29, with val F1-Score 0.6173627223511214
+[TRAIN] Epoch:  30 Batch:   16 Loss: 441.9922
+[ INFO ] [VAL]   Epoch:  30 Loss: 3846.2614 F1-Score: 0.6251
+[ INFO ] Train and Eval31th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 30, with val F1-Score 0.6250966744006187
+[TRAIN] Epoch:  31 Batch:   16 Loss: 432.5599
+[ INFO ] [VAL]   Epoch:  31 Loss: 3770.0558 F1-Score: 0.6303
+[ INFO ] Train and Eval32th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 31, with val F1-Score 0.6303170920340294
+[TRAIN] Epoch:  32 Batch:   16 Loss: 422.7109
+[ INFO ] [VAL]   Epoch:  32 Loss: 3695.5290 F1-Score: 0.6363
+[ INFO ] Train and Eval33th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 32, with val F1-Score 0.6363109048723898
+[TRAIN] Epoch:  33 Batch:   16 Loss: 413.2869
+[ INFO ] [VAL]   Epoch:  33 Loss: 3628.4083 F1-Score: 0.6402
+[ INFO ] Train and Eval34th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 33, with val F1-Score 0.6401778808971385
+[TRAIN] Epoch:  34 Batch:   16 Loss: 404.1865
+[ INFO ] [VAL]   Epoch:  34 Loss: 3564.3886 F1-Score: 0.6460
+[ INFO ] Train and Eval35th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 34, with val F1-Score 0.6459783449342614
+[TRAIN] Epoch:  35 Batch:   16 Loss: 395.6627
+[ INFO ] [VAL]   Epoch:  35 Loss: 3502.7314 F1-Score: 0.6508
+[ INFO ] Train and Eval36th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 35, with val F1-Score 0.6508120649651972
+[TRAIN] Epoch:  36 Batch:   16 Loss: 386.2796
+[ INFO ] [VAL]   Epoch:  36 Loss: 3447.3148 F1-Score: 0.6562
+[ INFO ] Train and Eval37th epoch cost 1m 22s
+[ INFO ] Early stop at epoch 36, with val F1-Score 0.6562258313998454
+[TRAIN] Epoch:  37 Batch:   16 Loss: 377.9615
+[ INFO ] [VAL]   Epoch:  37 Loss: 3395.9862 F1-Score: 0.6599
+[ INFO ] Train and Eval38th epoch cost 1m 22s
+[ INFO ] Early stop at epoch 37, with val F1-Score 0.6598994586233565
+[TRAIN] Epoch:  38 Batch:   16 Loss: 372.2097
+[ INFO ] [VAL]   Epoch:  38 Loss: 3345.8156 F1-Score: 0.6657
+[ INFO ] Train and Eval39th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 38, with val F1-Score 0.6656999226604795
+[TRAIN] Epoch:  39 Batch:   16 Loss: 364.8854
+[ INFO ] [VAL]   Epoch:  39 Loss: 3299.3787 F1-Score: 0.6703
+[ INFO ] Train and Eval40th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 39, with val F1-Score 0.6703402938901779
+[TRAIN] Epoch:  40 Batch:   16 Loss: 357.2282
+[ INFO ] [VAL]   Epoch:  40 Loss: 3256.1689 F1-Score: 0.6740
+[ INFO ] Train and Eval41th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 40, with val F1-Score 0.6740139211136891
+[TRAIN] Epoch:  41 Batch:   16 Loss: 350.4377
+[ INFO ] [VAL]   Epoch:  41 Loss: 3215.3756 F1-Score: 0.6785
+[ INFO ] Train and Eval42th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 41, with val F1-Score 0.67846094354215
+[TRAIN] Epoch:  42 Batch:   16 Loss: 345.6685
+[ INFO ] [VAL]   Epoch:  42 Loss: 3177.7433 F1-Score: 0.6806
+[ INFO ] Train and Eval43th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 42, with val F1-Score 0.6805877803557618
+[TRAIN] Epoch:  43 Batch:   16 Loss: 339.3376
+[ INFO ] [VAL]   Epoch:  43 Loss: 3142.2401 F1-Score: 0.6825
+[ INFO ] Train and Eval44th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 43, with val F1-Score 0.6825212683681361
+[TRAIN] Epoch:  44 Batch:   16 Loss: 333.9141
+[ INFO ] [VAL]   Epoch:  44 Loss: 3108.5591 F1-Score: 0.6868
+[ INFO ] Train and Eval45th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 44, with val F1-Score 0.6867749419953596
+[TRAIN] Epoch:  45 Batch:   16 Loss: 328.0786
+[ INFO ] [VAL]   Epoch:  45 Loss: 3075.8908 F1-Score: 0.6901
+[ INFO ] Train and Eval46th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 45, with val F1-Score 0.690061871616396
+[TRAIN] Epoch:  46 Batch:   16 Loss: 323.3658
+[ INFO ] [VAL]   Epoch:  46 Loss: 3045.6823 F1-Score: 0.6939
+[ INFO ] Train and Eval47th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 46, with val F1-Score 0.6939288476411446
+[TRAIN] Epoch:  47 Batch:   16 Loss: 318.9981
+[ INFO ] [VAL]   Epoch:  47 Loss: 3016.8590 F1-Score: 0.6949
+[ INFO ] Train and Eval48th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 47, with val F1-Score 0.6948955916473318
+[TRAIN] Epoch:  48 Batch:   16 Loss: 314.1303
+[ INFO ] [VAL]   Epoch:  48 Loss: 2989.8611 F1-Score: 0.6962
+[ INFO ] Train and Eval49th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 48, with val F1-Score 0.6962490332559939
+[TRAIN] Epoch:  49 Batch:   16 Loss: 310.1435
+[ INFO ] [VAL]   Epoch:  49 Loss: 2962.5646 F1-Score: 0.6990
+[ INFO ] Train and Eval50th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 49, with val F1-Score 0.6989559164733179
+[TRAIN] Epoch:  50 Batch:   16 Loss: 305.2449
+[ INFO ] [VAL]   Epoch:  50 Loss: 2937.5031 F1-Score: 0.7015
+[ INFO ] Train and Eval51th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 50, with val F1-Score 0.7014694508894045
+[TRAIN] Epoch:  51 Batch:   16 Loss: 301.8496
+[ INFO ] [VAL]   Epoch:  51 Loss: 2914.1707 F1-Score: 0.7020
+[ INFO ] Train and Eval52th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 51, with val F1-Score 0.7020494972931168
+[TRAIN] Epoch:  52 Batch:   16 Loss: 296.6087
+[ INFO ] [VAL]   Epoch:  52 Loss: 2892.2674 F1-Score: 0.7046
+[ INFO ] Train and Eval53th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 52, with val F1-Score 0.7045630317092034
+[TRAIN] Epoch:  53 Batch:   16 Loss: 293.8512
+[ INFO ] [VAL]   Epoch:  53 Loss: 2870.0666 F1-Score: 0.7055
+[ INFO ] Train and Eval54th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 53, with val F1-Score 0.7055297757153906
+[TRAIN] Epoch:  54 Batch:   16 Loss: 289.0655
+[ INFO ] [VAL]   Epoch:  54 Loss: 2849.1676 F1-Score: 0.7082
+[ INFO ] Train and Eval55th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 54, with val F1-Score 0.7082366589327146
+[TRAIN] Epoch:  55 Batch:   16 Loss: 284.9330
+[ INFO ] [VAL]   Epoch:  55 Loss: 2828.2786 F1-Score: 0.7100
+[ INFO ] Train and Eval56th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 55, with val F1-Score 0.7099767981438516
+[TRAIN] Epoch:  56 Batch:   16 Loss: 282.5751
+[ INFO ] [VAL]   Epoch:  56 Loss: 2809.5807 F1-Score: 0.7115
+[ INFO ] Train and Eval57th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 56, with val F1-Score 0.7115235885537509
+[TRAIN] Epoch:  57 Batch:   16 Loss: 279.1720
+[ INFO ] [VAL]   Epoch:  57 Loss: 2791.7540 F1-Score: 0.7135
+[ INFO ] Train and Eval58th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 57, with val F1-Score 0.7134570765661253
+[TRAIN] Epoch:  58 Batch:   16 Loss: 276.7518
+[ INFO ] [VAL]   Epoch:  58 Loss: 2774.9095 F1-Score: 0.7140
+[ INFO ] Train and Eval59th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 58, with val F1-Score 0.7140371229698376
+[TRAIN] Epoch:  59 Batch:   16 Loss: 273.1571
+[ INFO ] [VAL]   Epoch:  59 Loss: 2759.6262 F1-Score: 0.7140
+[ INFO ] Train and Eval60th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 59, with val F1-Score 0.7140371229698376
+[TRAIN] Epoch:  60 Batch:   16 Loss: 270.2619
+[ INFO ] [VAL]   Epoch:  60 Loss: 2743.8234 F1-Score: 0.7158
+[ INFO ] Train and Eval61th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 60, with val F1-Score 0.7157772621809745
+[TRAIN] Epoch:  61 Batch:   16 Loss: 266.9544
+[ INFO ] [VAL]   Epoch:  61 Loss: 2728.1379 F1-Score: 0.7166
+[ INFO ] Train and Eval62th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 61, with val F1-Score 0.7165506573859243
+[TRAIN] Epoch:  62 Batch:   16 Loss: 265.3378
+[ INFO ] [VAL]   Epoch:  62 Loss: 2715.4965 F1-Score: 0.7179
+[ INFO ] Train and Eval63th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 62, with val F1-Score 0.7179040989945861
+[TRAIN] Epoch:  63 Batch:   16 Loss: 261.9623
+[ INFO ] [VAL]   Epoch:  63 Loss: 2703.0340 F1-Score: 0.7187
+[ INFO ] Train and Eval64th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 63, with val F1-Score 0.718677494199536
+[TRAIN] Epoch:  64 Batch:   16 Loss: 260.8490
+[ INFO ] [VAL]   Epoch:  64 Loss: 2688.9046 F1-Score: 0.7206
+[ INFO ] Train and Eval65th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 64, with val F1-Score 0.7206109822119104
+[TRAIN] Epoch:  65 Batch:   16 Loss: 258.5864
+[ INFO ] [VAL]   Epoch:  65 Loss: 2677.5220 F1-Score: 0.7210
+[ INFO ] Train and Eval66th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 65, with val F1-Score 0.720997679814385
+[TRAIN] Epoch:  66 Batch:   16 Loss: 254.9963
+[ INFO ] [VAL]   Epoch:  66 Loss: 2666.6516 F1-Score: 0.7220
+[ INFO ] Train and Eval67th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 66, with val F1-Score 0.7219644238205722
+[TRAIN] Epoch:  67 Batch:   16 Loss: 254.3798
+[ INFO ] [VAL]   Epoch:  67 Loss: 2655.9775 F1-Score: 0.7233
+[ INFO ] Train and Eval68th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 67, with val F1-Score 0.7233178654292343
+[TRAIN] Epoch:  68 Batch:   16 Loss: 252.6057
+[ INFO ] [VAL]   Epoch:  68 Loss: 2647.6246 F1-Score: 0.7241
+[ INFO ] Train and Eval69th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 68, with val F1-Score 0.724091260634184
+[TRAIN] Epoch:  69 Batch:   16 Loss: 251.2979
+[ INFO ] [VAL]   Epoch:  69 Loss: 2637.7674 F1-Score: 0.7251
+[ INFO ] Train and Eval70th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 69, with val F1-Score 0.7250580046403712
+[TRAIN] Epoch:  70 Batch:   16 Loss: 247.9984
+[ INFO ] [VAL]   Epoch:  70 Loss: 2629.6802 F1-Score: 0.7256
+[ INFO ] Train and Eval71th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 70, with val F1-Score 0.7256380510440835
+[TRAIN] Epoch:  71 Batch:   16 Loss: 247.0787
+[ INFO ] [VAL]   Epoch:  71 Loss: 2621.5717 F1-Score: 0.7266
+[ INFO ] Train and Eval72th epoch cost 1m 18s
+[ INFO ] Early stop at epoch 71, with val F1-Score 0.7266047950502706
+[TRAIN] Epoch:  72 Batch:   16 Loss: 244.8784
+[ INFO ] [VAL]   Epoch:  72 Loss: 2613.5492 F1-Score: 0.7278
+[ INFO ] Train and Eval73th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 72, with val F1-Score 0.7277648878576953
+[TRAIN] Epoch:  73 Batch:   16 Loss: 243.9221
+[ INFO ] [VAL]   Epoch:  73 Loss: 2607.5462 F1-Score: 0.7283
+[ INFO ] Train and Eval74th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 73, with val F1-Score 0.7283449342614077
+[TRAIN] Epoch:  74 Batch:   16 Loss: 242.7924
+[ INFO ] [VAL]   Epoch:  74 Loss: 2600.5906 F1-Score: 0.7287
+[ INFO ] Train and Eval75th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 74, with val F1-Score 0.7287316318638825
+[TRAIN] Epoch:  75 Batch:   16 Loss: 241.3207
+[ INFO ] [VAL]   Epoch:  75 Loss: 2594.9300 F1-Score: 0.7285
+[ INFO ] Train and Eval76th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 75, with val F1-Score 0.728538283062645
+[TRAIN] Epoch:  76 Batch:   16 Loss: 240.2599
+[ INFO ] [VAL]   Epoch:  76 Loss: 2589.4788 F1-Score: 0.7293
+[ INFO ] Train and Eval77th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 76, with val F1-Score 0.7293116782675947
+[TRAIN] Epoch:  77 Batch:   16 Loss: 237.7889
+[ INFO ] [VAL]   Epoch:  77 Loss: 2583.5364 F1-Score: 0.7303
+[ INFO ] Train and Eval78th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 77, with val F1-Score 0.730278422273782
+[TRAIN] Epoch:  78 Batch:   16 Loss: 237.5047
+[ INFO ] [VAL]   Epoch:  78 Loss: 2579.0265 F1-Score: 0.7309
+[ INFO ] Train and Eval79th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 78, with val F1-Score 0.7308584686774943
+[TRAIN] Epoch:  79 Batch:   16 Loss: 236.2183
+[ INFO ] [VAL]   Epoch:  79 Loss: 2575.4295 F1-Score: 0.7312
+[ INFO ] Train and Eval80th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 79, with val F1-Score 0.7312451662799689
+[TRAIN] Epoch:  80 Batch:   16 Loss: 236.0985
+[ INFO ] [VAL]   Epoch:  80 Loss: 2571.0710 F1-Score: 0.7314
+[ INFO ] Train and Eval81th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 80, with val F1-Score 0.7314385150812065
+[TRAIN] Epoch:  81 Batch:   16 Loss: 235.4445
+[ INFO ] [VAL]   Epoch:  81 Loss: 2567.5588 F1-Score: 0.7316
+[ INFO ] Train and Eval82th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 81, with val F1-Score 0.731631863882444
+[TRAIN] Epoch:  82 Batch:   16 Loss: 234.9242
+[ INFO ] [VAL]   Epoch:  82 Loss: 2564.3795 F1-Score: 0.7318
+[ INFO ] Train and Eval83th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 82, with val F1-Score 0.7318252126836814
+[TRAIN] Epoch:  83 Batch:   16 Loss: 233.8413
+[ INFO ] [VAL]   Epoch:  83 Loss: 2561.7087 F1-Score: 0.7320
+[ INFO ] Train and Eval84th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 83, with val F1-Score 0.7320185614849188
+[TRAIN] Epoch:  84 Batch:   16 Loss: 232.9352
+[ INFO ] [VAL]   Epoch:  84 Loss: 2558.8307 F1-Score: 0.7326
+[ INFO ] Train and Eval85th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 84, with val F1-Score 0.7325986078886311
+[TRAIN] Epoch:  85 Batch:   16 Loss: 232.6735
+[ INFO ] [VAL]   Epoch:  85 Loss: 2555.9790 F1-Score: 0.7324
+[ INFO ] Train and Eval86th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 85, with val F1-Score 0.7324052590873936
+[TRAIN] Epoch:  86 Batch:   16 Loss: 232.5684
+[ INFO ] [VAL]   Epoch:  86 Loss: 2554.2776 F1-Score: 0.7324
+[ INFO ] Train and Eval87th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 86, with val F1-Score 0.7324052590873936
+[TRAIN] Epoch:  87 Batch:   16 Loss: 231.3620
+[ INFO ] [VAL]   Epoch:  87 Loss: 2552.6125 F1-Score: 0.7324
+[ INFO ] Train and Eval88th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 87, with val F1-Score 0.7324052590873936
+[TRAIN] Epoch:  88 Batch:   16 Loss: 230.0311
+[ INFO ] [VAL]   Epoch:  88 Loss: 2551.1985 F1-Score: 0.7332
+[ INFO ] Train and Eval89th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 88, with val F1-Score 0.7331786542923433
+[TRAIN] Epoch:  89 Batch:   16 Loss: 230.7969
+[ INFO ] [VAL]   Epoch:  89 Loss: 2549.7298 F1-Score: 0.7334
+[ INFO ] Train and Eval90th epoch cost 1m 19s
+[ INFO ] Early stop at epoch 89, with val F1-Score 0.7333720030935809
+[TRAIN] Epoch:  90 Batch:   16 Loss: 231.0488
+[ INFO ] [VAL]   Epoch:  90 Loss: 2548.5967 F1-Score: 0.7332
+[ INFO ] Train and Eval91th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 90, with val F1-Score 0.7331786542923433
+[TRAIN] Epoch:  91 Batch:   16 Loss: 229.9877
+[ INFO ] [VAL]   Epoch:  91 Loss: 2547.8976 F1-Score: 0.7330
+[ INFO ] Train and Eval92th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 91, with val F1-Score 0.732985305491106
+[TRAIN] Epoch:  92 Batch:   16 Loss: 229.4561
+[ INFO ] [VAL]   Epoch:  92 Loss: 2547.3419 F1-Score: 0.7330
+[ INFO ] Train and Eval93th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 92, with val F1-Score 0.732985305491106
+[TRAIN] Epoch:  93 Batch:   16 Loss: 229.6891
+[ INFO ] [VAL]   Epoch:  93 Loss: 2546.8264 F1-Score: 0.7330
+[ INFO ] Train and Eval94th epoch cost 1m 20s
+[ INFO ] Early stop at epoch 93, with val F1-Score 0.732985305491106
+[TRAIN] Epoch:  94 Batch:   16 Loss: 230.4718
+[ INFO ] [VAL]   Epoch:  94 Loss: 2546.4396 F1-Score: 0.7334
+[ INFO ] Train and Eval95th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 94, with val F1-Score 0.7333720030935809
+[TRAIN] Epoch:  95 Batch:   16 Loss: 230.0649
+[ INFO ] [VAL]   Epoch:  95 Loss: 2546.0479 F1-Score: 0.7334
+[ INFO ] Train and Eval96th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 95, with val F1-Score 0.7333720030935809
+[TRAIN] Epoch:  96 Batch:   16 Loss: 228.9395
+[ INFO ] [VAL]   Epoch:  96 Loss: 2545.7695 F1-Score: 0.7334
+[ INFO ] Train and Eval97th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 96, with val F1-Score 0.7333720030935809
+[TRAIN] Epoch:  97 Batch:   16 Loss: 229.5267
+[ INFO ] [VAL]   Epoch:  97 Loss: 2545.6097 F1-Score: 0.7332
+[ INFO ] Train and Eval98th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 97, with val F1-Score 0.7331786542923433
+[TRAIN] Epoch:  98 Batch:   16 Loss: 229.8258
+[ INFO ] [VAL]   Epoch:  98 Loss: 2545.5399 F1-Score: 0.7332
+[ INFO ] Train and Eval99th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 98, with val F1-Score 0.7331786542923433
+[TRAIN] Epoch:  99 Batch:   16 Loss: 229.8657
+[ INFO ] [VAL]   Epoch:  99 Loss: 2545.5208 F1-Score: 0.7332
+[ INFO ] Train and Eval100th epoch cost 1m 21s
+[ INFO ] Early stop at epoch 99, with val F1-Score 0.7331786542923433
+[TRAIN] Epoch: 100 Batch:   16 Loss: 229.2200
+[ INFO ] [VAL]   Epoch: 100 Loss: 2545.5168 F1-Score: 0.7332
+[ INFO ] Train and Eval101th epoch cost 1m 21s

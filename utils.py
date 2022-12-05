@@ -53,20 +53,7 @@ def load_dataset(data):
 
 
 def attention_padding_mask(q, k, padding_index=0):
-    """Generate mask tensor for padding value
-    Args:
-        q (Tensor): (B, T_q)
-        k (Tensor): (B, T_k)
-        padding_index (int): padding index. Default: 0
-    Returns:
-        (torch.BoolTensor): Mask with shape (B, T_q, T_k). True element stands for requiring making.
-    Notes:
-        Assume padding_index is 0:
-        k.eq(0) -> BoolTensor (B, T_k)
-        k.eq(0).unsqueeze(1)  -> (B, 1, T_k)
-        k.eq(0).unsqueeze(1).expand(-1, q.size(-1), -1) -> (B, T_q, T_k)
-    """
-
+    
     mask = k.eq(padding_index).unsqueeze(1).expand(-1, q.size(-1), -1)
     return mask
 
@@ -79,14 +66,7 @@ def attention_padding_mask_infer(q, padding_index=0):
 
 
 def cal_accuracy(predicts, targets, ignore_index=None):
-    """Calculate accuracy simply
-    Args:
-        predicts (numpy.ndarray): predicted indexes
-        targets (numpy.ndarray): gold true indexes
-        ignore_index (int | None): index in targets that needs to be negleted
-    Returns:
-        (float): Accuracy
-    """
+   
     assert predicts.shape == targets.shape, 'predicts and targets should have same shape'
 
     if ignore_index is not None:

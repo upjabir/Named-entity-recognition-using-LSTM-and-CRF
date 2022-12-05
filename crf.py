@@ -4,10 +4,6 @@ import torch.nn.functional as F
 import logging
 
 
-
-
-
-
 class CRF(nn.Module):
 
     def __init__(self, num_entities, pad_idx, bos_idx, eos_idx):
@@ -23,14 +19,6 @@ class CRF(nn.Module):
         self._init_transitions()
 
     def forward(self, emissions, entities, mask=None):
-        """Forward logic that computes the negative logarithm likelihood
-        Args:
-            emissions (torch.Tensor): emission matrix, which should be the output of previous layer (B, T, num_entities)
-            entities (torch.LongTensor): given entities sequence (B, T)
-            mask (torch.BoolTensor): indicates valid positions within each sequence in the batch (B, T)
-        Returns:
-            (torch.Tensor): neg-log-likelihood as loss, mean over batch (1,)
-        """
         
         if mask is None:
             mask = torch.ones(emissions.shape[:2], dtype=torch.float, device='cuda' if torch.cuda.is_available() else 'cpu').bool()
@@ -52,14 +40,7 @@ class CRF(nn.Module):
         self.transitions.data[self.pad_idx, self.eos_idx] = 0
 
     def _score(self, emissions, entities, mask):
-        """
-        Args:
-            emissions (torch.Tensor): emission matrix, which should be the output of previous layer (B, T, num_entities)
-            entities (torch.LongTensor): given entities sequence (B, T)
-            mask (torch.BoolTensor): indicates valid positions within each sequence in the batch (B, T)
-        Returns:
-            torch.Tensor: scores of each entity sequence in current batch: (B,)
-        """
+        
         batch_size, seq_len = entities.shape
 
         scores = torch.zeros(batch_size, dtype=torch.float, device='cuda' if torch.cuda.is_available() else 'cpu')
@@ -95,13 +76,6 @@ class CRF(nn.Module):
         return scores  # (B,)
 
     def _log_partition(self, emissions, mask):
-        """
-        Args:
-            emissions (torch.Tensor): emission matrix, which should be the output of previous layer (B, T, num_entities)
-            mask (torch.BoolTensor): indicates valid positions within each sequence in the batch (B, T)
-        Returns:
-            (torch.Tensor): partition scores for current batch (B,)
-        """
         
         batch_size, seq_len, num_ents = emissions.shape
 
@@ -134,16 +108,7 @@ class CRF(nn.Module):
         return torch.logsumexp(end_scores, dim=1)
 
     def viterbi_decode(self, emissions, mask):
-        """Find the most probable entity sequence by applying viterbi decoding
-        Args:
-            emissions (torch.Tensor): emission matrix, which should be the output of previous layer (B, T, num_entities)
-            mask (torch.BoolTensor): indicates valid positions within each sequence in the batch (B, T)
-        Returns:
-            (tuple): tuple containing:
-                (torch.Tensor): viterbi score for each sequence in current batch (B,).
-                (list[list[int]]): best sequences of entities of this batch, representing in indexes (B, *)
-        """
-        
+       
         batch_size, seq_len, num_ents = emissions.shape
 
         alphas = self.transitions[self.bos_idx, :].unsqueeze(0) + emissions[:, 0]  # (B, num_ents)

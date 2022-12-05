@@ -9,7 +9,7 @@ CRF is used on the top of Attention layer for predicting the Entity Tags.
 
 ## Model Architecture
 
-![Architecture](https://drive.google.com/file/d/1L8Cdf6DFu2wiQ_QdUWNoT2ihq7hzKUyX/view?usp=share_link)
+![Architecture](https://github.com/upjabir/lstm_ner/blob/main/img/architecture.jpg)
 
 
 

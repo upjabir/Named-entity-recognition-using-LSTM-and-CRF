@@ -71,5 +71,5 @@ At the root of the project, you will see:
 
 
 ## Demo
-![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
+![grab-landing-page](https://github.com/upjabir/lstm_ner/blob/main/img/ner_sama.png)
 
